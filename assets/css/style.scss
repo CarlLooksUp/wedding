@@ -1,0 +1,106 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+
+body {
+  margin: 0;
+}
+
+nav {
+  align-items: center;
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: flex-start;
+  min-height: 50px;
+  padding: 10px;
+
+  a, a:visited {
+    color: #eee;
+    text-decoration: none;
+  }
+}
+
+.wedding-site-container {
+  align-items: flex-end;
+  background-image: url("../images/wedding_site_bench.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  min-height: 400px;
+
+  h1 {
+    color: #fff;
+    font-family: Georgia;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 20px;
+  }
+}
+
+.picture-link-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 20px;
+
+  .button-container {
+    flex: 1;
+    text-align: center;
+    flex-grow: 2;
+  }
+
+  h2 {
+    flex: 1;
+    margin: 0 0 20px;
+  }
+}
+
+.info-box-container {
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+  justify-content: space-around;
+
+  div {
+    flex: 1;
+  }
+
+  .info-box-img {
+    border-radius: 200px;
+  }
+
+  .info-box-left {
+    min-height: 400px;
+    margin: 0 40px 20px;
+    text-align: center;
+  }
+
+  .info-box-right {
+    text-align: center;
+    vertical-align: center;
+  }
+}
+
+.charity-cta {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+
+  .cta {
+    text-align: center;
+  }
+}
+
+.charity-links-container {
+  display: flex;
+  min-height: 400px;
+  justify-content: space-around;
+
+  div {
+    flex: 1;
+    margin: 15px 0;
+    text-align: center;
+  }
+}
